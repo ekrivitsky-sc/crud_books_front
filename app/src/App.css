@@ -1,0 +1,102 @@
+#main {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+}
+
+.list {
+  text-align: left;
+  max-width: 1920px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  text-align: left;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+/*.edit-form {*/
+/*  max-width: 300px;*/
+/*  margin: auto;*/
+/*}*/
+
+.icon {
+  color: black;
+}
+.icon:hover {
+  color: #6ea8fe;
+}
+
+.pagination {
+  justify-content: right;
+  align-items: center;
+}
+
+.pagination select {
+  height: 40px;
+}
+
+.form-group:not(:first-child),
+.buttonForm {
+  padding-top: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal_book .modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_book .modal-content {
+  max-width: 700px;
+}
+
+.modal_book .modal-dialog {
+  max-width: 700px;
+}
+
+.book_image img,
+.preview {
+  max-width: 380px;
+}
+
+.title-block {
+  display: flex;
+  align-items: center;
+}
+
+.title-block h4 {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+.menu a {
+  padding: 6px 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a.active {
+  color: black;
+}
+/*body {*/
+/*  padding-left: 15px;*/
+/*  padding-right: 15px;*/
+/*}*/
